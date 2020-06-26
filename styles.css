@@ -16,36 +16,37 @@ h1 {
     margin-bottom: 30px;
     text-align: center;
 }
-figure {
-    margin: 0;
-}
 header {
     background: white;
     width: 100%;
     height: 100%;
 }
 .header_section {
-    padding: 0 0 22px 0;
     display: flex;
-    justify-content: space-between;
     position: fixed;
     background: white;
     width: 100%;
     z-index: 1;
+;
 }
 .img_logo {
-    
-
+    width: 200px;
+    height: 150px;
     transition: 0.4s;
+    cursor: pointer;
+    padding: 0.5%;
 }
+
+#navbar {
+    padding-top: 50px;
+}
+
 .menu {
     display: flex;
-    margin: 1% 88px;
-    padding: 90px 10px; /* Large padding which will shrink on scroll (using JS) */
+    justify-content: center;
     transition: 0.4s; /* Adds a transition effect when the padding is decreased */
     position: fixed; /* Sticky/fixed navbar */
     width: 100%;
-    top: 0; /* At the top */
     z-index: 99;
 }
 ol {
@@ -75,14 +76,14 @@ ol {
 .background_hero_image {
     width: 100%;
     height: 60vh;
-    margin-top: 20%;
+    margin-top: 12%;
 }
 .profile_photo {
     position: absolute;
     align-self: center;
     width:300px;
     height:300px;
-    padding-top: 20%;
+    padding-top: 15%;
 }
 hgroup {
     display: flex;
